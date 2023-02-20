@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+}
+
+footer {
+	font-family: 'Nanum Gothic';
+	font-size: 0.7vw;
+    color: #dddddd;
+}
+
+figure {
+	opacity: 0;
+	transform: translateX(-10%);
+	transition: all 0.5s;
+}
+
+#title {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: rgb(37, 37, 37);
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.title__container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub__title {
+    font-family: 'Roboto';
+    font-size: 5vw;
+    color: #f7f7f7;
+    background-color: #252525;
+}
+
+.content__text {
+	font-family: 'Nanum Gothic';
+	font-size: 2vw;
+    color: #f7f7f7;
+    background-color: #252525;
+    line-height: 180%
+}
